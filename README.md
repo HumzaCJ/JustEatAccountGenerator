@@ -11,11 +11,11 @@ This project emerged from my desire to expand beyond browser-based automation fr
 The script interfaces directly with Just Eat's consumer registration API, generating randomised user credentials via Faker and submitting them through a TLS-spoofed session that emulates Chrome.
 
 ## Requirements
-$${\color{red}tls_client}$$
-$${\color{purple}faker}$$
-
+```
 tls_client
-faker (unless you want to use your own information)
+faker
+```
+-# faker (unless you want to use your own information)
 
 
 ## Disclaimer
