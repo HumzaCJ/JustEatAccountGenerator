@@ -15,7 +15,15 @@ The script interfaces directly with Just Eat's consumer registration API, genera
 tls_client
 faker
 ```
-<sup>you can remove faker if you want to use your own infromation instead and just don't want to go through the actual sign up process</sup>
+<sup>you can remove faker if you want to use your own infromation instead and just don't want to go through the actual sign up process</sup
+                                                                                                                                        
+## Future Additions
+There's a few things i'd recommend adding in case Just Eat start to add anti-spam/anti-bot measures in the future. These would include:
+```
+- proxy integration (residentials should work fine but also ISPs/DCs)
+- randomised user agents instead of a hardcoded session
+- bulk generating account and storing them to a csv/txt file 
+```
 
 ## Disclaimer
 This project is open-sourced purely for **educational purposes** to understand web automation techniques. Automated account creation violates Just Eat's Terms of Service. Use responsibly and at your own risk.
